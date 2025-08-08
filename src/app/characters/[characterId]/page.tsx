@@ -11,8 +11,6 @@ async function CharacterDetail({ params }: Params) {
     const response = await fetch(`${CHARACTER_URL}/${characterId}`);
     const result:Result = await response.json();
 
-    console.log(result);
-
     // Noté que la URL a veces llega vacía, así que agregué esta validación
     if (!result.origin.url) return (
         <div className={styles.characterDetail}>
