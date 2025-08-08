@@ -35,7 +35,6 @@ function List({ results }: { results: Result[] }) {
             window.sessionStorage.setItem('characters', JSON.stringify([ ...charactersInMemory, character ]));
             return;
         }
-        console.log(charactersInMemory);
         window.sessionStorage.setItem('characters', JSON.stringify([ ...charactersInMemory, character ]));
     };
 
