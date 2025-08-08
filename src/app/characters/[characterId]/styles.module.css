@@ -1,0 +1,36 @@
+.characterDetail {
+    margin: 0 auto 30px auto;
+}
+
+.wrap {
+    padding: 10px;
+    border: solid 1px var(--gray-color);
+    display: inline-block;
+}
+
+.link {
+    padding: 10px 15px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.characterDetail .title {
+    margin: 40px 0;
+    background: linear-gradient(to right, var(--aqua-color) 0%, var(--blue-color) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.characterDetail .name {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.origin, .location {
+    background-color: var(--lightGray-color);
+}
+
+.attr {
+    font-size: 0.95rem;
+}

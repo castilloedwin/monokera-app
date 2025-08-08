@@ -1,0 +1,48 @@
+.pagination, .normal, .deactivated {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination {
+    padding: 30px 0 20px;
+}
+
+.pagination .page {
+    width: 45px;
+    height: 40px;
+    border: solid 1px var(--gray-color);
+}
+
+.firstAndLast {
+    margin: 0 5px;
+    padding: 7px;
+    border: solid 1px var(--gray-color);
+}
+
+.arrow {
+    margin-top: 9px;
+    padding: 8px;
+    border: solid var(--black-color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+}
+
+.arrowLeft {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.arrowRight {
+     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.status {
+    padding: 0 15px;
+}
+
+.deactivated {
+    opacity: 0.5;
+    pointer-events: none;
+}

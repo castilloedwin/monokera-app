@@ -1,0 +1,19 @@
+.characterPage {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 3.2rem;
+    background: linear-gradient(to right, var(--aqua-color) 0%, var(--blue-color) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header {
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: var(--lightGray-color)
+}
